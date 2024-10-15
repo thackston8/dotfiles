@@ -1,0 +1,5 @@
+map <backspace2> set hidden!
+map D delete
+set sixel
+set previewer ~/.config/lf/previewer 
+cmd mkdir %mkdir "$@"

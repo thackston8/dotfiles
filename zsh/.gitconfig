@@ -1,0 +1,8 @@
+[user]
+	name = Christian Thackston
+	email = christian@thackston.dev
+	signingkey = CAD74E70524CA125
+[commit]
+	gpgsign = true
+[init]
+	defaultBranch = main
