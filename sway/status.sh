@@ -16,6 +16,9 @@ last_minute=$(date "+%M")
 # Start mpc idleloop as a coprocess
 coproc mpc_idle { mpc idleloop player; }
 
+# **Output status immediately**
+output_status
+
 # Main loop
 while true; do
     # Check for mpc events with a timeout of 1 second
