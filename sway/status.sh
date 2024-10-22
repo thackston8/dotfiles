@@ -1,13 +1,34 @@
 #!/bin/bash
 
-# Function to check shuffle status and display icon
-song=$(mpc current)
-if [ -z "$song" ]; then
-    song="Not Playing"
-fi
-date_formatted=$(date "+%m/%d %X")
-#next_shift=$(cat ~/Documents/myschedule.ics | next_event)
-# Print output
-#echo "Next Shift: $next_shift | $song | $date_formatted"
-echo "$song | $date_formatted"
+# Function to output status
+output_status() {
+    song=$(mpc current)
+    if [ -z "$song" ]; then
+        song="Not Playing"
+    fi
+    date_formatted=$(date "+%a %m/%d %H:%M %P")
+    echo "$song | $date_formatted"
+}
+
+# Initialize last minute
+last_minute=$(date "+%M")
+
+# Start mpc idleloop as a coprocess
+coproc mpc_idle { mpc idleloop player; }
+
+# Main loop
+while true; do
+    # Check for mpc events with a timeout of 1 second
+    if read -t 1 -u ${mpc_idle[0]} mpc_event; then
+        # mpc event occurred (song changed)
+        output_status
+    fi
+
+    # Check if the minute has changed to update the clock
+    current_minute=$(date "+%M")
+    if [ "$current_minute" != "$last_minute" ]; then
+        last_minute=$current_minute
+        output_status
+    fi
+done
 
