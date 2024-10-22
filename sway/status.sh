@@ -6,7 +6,7 @@ output_status() {
     if [ -z "$song" ]; then
         song="Not Playing"
     fi
-    date_formatted=$(date "+%a %m/%d %H:%M %P")
+    date_formatted=$(date "+%a %m/%d %I:%M %P")
     echo "$song | $date_formatted"
 }
 
