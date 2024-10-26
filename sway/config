@@ -24,7 +24,7 @@ set $menu "bemenu-run -b --fn 'Terminus 12' --hf '#f2e5bc' --tb '#458588' --tf '
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output DP-3 bg $HOME/.config/sway/pape.png fill
+output DP-3 bg $HOME/.config/sway/pape.jpg fill
 #
 # Example configuration:
 #

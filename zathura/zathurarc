@@ -1,8 +1,0 @@
-set default-fg "#282828"
-set default-bg "#282828"
-set statusbar-bg "#333333"
-set statusbar-fg "#d5c4a1"
-set font "Terminus normal 9"
-set window-height 1200
-set show-hidden true
-set database sqlite

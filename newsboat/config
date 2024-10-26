@@ -24,7 +24,7 @@ bind-key D pb-download
 bind-key U show-urls
 bind-key x pb-delete
 
-browser "nb-open %u"
+browser "mpv %u"
 
 # colors
 color background          black      default
