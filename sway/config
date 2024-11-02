@@ -210,8 +210,8 @@ bar {
     colors {
         statusline #ebdbb2
         background #282828
-	focused_workspace #458588 #458588 #ebdbb2
-	inactive_workspace #3c3836 #504945 #ebdbb2
+	      focused_workspace #458588 #458588 #ebdbb2
+	      inactive_workspace #3c3836 #504945 #ebdbb2
     }
 }
 
@@ -219,9 +219,9 @@ include /etc/sway/config.d/*
 include $HOME/.config/sway/config.d/*
 
 # Ricing
-default_border none
-default_border pixel 6
-default_floating_border pixel 6
+font Terminus 8
+default_border normal 4
+default_floating_border pixel 4
 gaps inner 8
 
 # Fix audio output not starting
