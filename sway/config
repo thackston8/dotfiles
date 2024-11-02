@@ -201,7 +201,7 @@ bindsym $mod+r mode "resize"
 #
 # Read `man 5 sway-bar` for more information about this section.
 bar {
-    position top
+    position bottom
 
     # When the status_command prints a new line to stdout, swaybar updates.
     # The default just shows the current date and time.
@@ -222,7 +222,7 @@ include $HOME/.config/sway/config.d/*
 font Terminus 8
 default_border normal 4
 default_floating_border pixel 4
-gaps inner 8
+#gaps inner 8
 
 # Fix audio output not starting
 exec systemctl --user start wireplumber.service
