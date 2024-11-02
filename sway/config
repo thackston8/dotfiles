@@ -19,7 +19,7 @@ set $term foot
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
 #set $menu dmenu_path | wmenu | xargs swaymsg exec --
-set $menu "bemenu-run -b --fn 'Terminus 12' --hf '#f2e5bc' --tb '#458588' --tf '#f2e5bc'"
+set $menu "bemenu-run -b --fn 'Terminus 12' --hf '#f2e5bc' --tb '#458588' --tf '#f2e5bc' -H 22"
 
 ### Output configuration
 #
