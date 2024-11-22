@@ -224,10 +224,6 @@ default_border normal 4
 default_floating_border pixel 4
 #gaps inner 8
 
-# Fix audio output not starting
-exec systemctl --user start wireplumber.service
-
-
 # Media Control
 bindsym $mod+Left exec mpc prev
 bindsym $mod+Down exec mpc toggle
