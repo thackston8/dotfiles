@@ -225,13 +225,9 @@ default_floating_border pixel 4
 #gaps inner 8
 
 # Media Control
-bindsym $mod+Left exec mpc prev
-bindsym $mod+Down exec mpc toggle
-bindsym $mod+Shift+Down exec mpc stop
-bindsym $mod+Up exec mpc random
-bindsym $mod+Right exec mpc next
-bindsym $mod+Minus exec mpc volume -10
-bindsym $mod+Equal exec mpc volume +10
+bindsym $mod+Left exec playerctl previous
+bindsym $mod+Down exec playerctl play-pause
+bindsym $mod+Right exec playerctl next
 
 bindsym $mod+Insert exec grim -g "$(slurp -d)" - | wl-copy 
 
