@@ -20,5 +20,6 @@ while true; do
         last_minute=$current_minute
         output_status
     fi
+    sleep 1
 done
 
