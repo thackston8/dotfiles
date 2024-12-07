@@ -1,6 +1,7 @@
 autoload -Uz compinit promptinit
 compinit
 promptinit
+setopt correct
 PROMPT='%~ » '
 HISTSIZE=20
 SAVEHIST=20
