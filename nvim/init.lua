@@ -71,12 +71,25 @@ require('tabout').setup{
 
 }
 
--- Set up lspconfig.
-local luasnip = require 'luasnip'
-local capabilities = require('cmp_nvim_lsp').default_capabilities()
-require('lspconfig')['clangd'].setup {capabilities = capabilities}
+-- Add additional capabilities supported by nvim-cmp
+local capabilities = require("cmp_nvim_lsp").default_capabilities()
+require'lspconfig'.rust_analyzer.setup{}
 
--- Copy pasted function (https://github.com/neovim/nvim-lspconfig/wiki/Autocompletion)
+local lspconfig = require('lspconfig')
+
+-- Enable some language servers with the additional completion capabilities offered by nvim-cmp
+local servers = { 'clangd', 'rust_analyzer' }
+for _, lsp in ipairs(servers) do
+  lspconfig[lsp].setup {
+    -- on_attach = my_custom_on_attach,
+    capabilities = capabilities,
+  }
+end
+
+-- luasnip setup
+local luasnip = require 'luasnip'
+
+-- nvim-cmp setup
 local cmp = require 'cmp'
 cmp.setup {
   snippet = {
@@ -117,4 +130,3 @@ cmp.setup {
     { name = 'luasnip' },
   },
 }
-
