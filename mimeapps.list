@@ -1,7 +1,7 @@
 [Default Applications]
-x-scheme-handler/mailto=userapp-Thunderbird-7XKRX2.desktop
-message/rfc822=userapp-Thunderbird-7XKRX2.desktop
-x-scheme-handler/mid=userapp-Thunderbird-7XKRX2.desktop
+x-scheme-handler/mailto=userapp-Thunderbird-AC3XY2.desktop
+message/rfc822=userapp-Thunderbird-AC3XY2.desktop
+x-scheme-handler/mid=userapp-Thunderbird-AC3XY2.desktop
 image/heic=imv-desktop.desktop
 text/html=librewolf.desktop
 x-scheme-handler/http=librewolf.desktop
@@ -10,5 +10,5 @@ x-scheme-handler/about=librewolf.desktop
 x-scheme-handler/unknown=librewolf.desktop
 
 [Added Associations]
-x-scheme-handler/mailto=userapp-Thunderbird-LZT0W2.desktop;userapp-Thunderbird-7XKRX2.desktop;
-x-scheme-handler/mid=userapp-Thunderbird-LZT0W2.desktop;userapp-Thunderbird-7XKRX2.desktop;
+x-scheme-handler/mailto=userapp-Thunderbird-LZT0W2.desktop;userapp-Thunderbird-7XKRX2.desktop;userapp-Thunderbird-AC3XY2.desktop;
+x-scheme-handler/mid=userapp-Thunderbird-LZT0W2.desktop;userapp-Thunderbird-7XKRX2.desktop;userapp-Thunderbird-AC3XY2.desktop;
