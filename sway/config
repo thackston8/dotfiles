@@ -27,7 +27,7 @@ set $menu "bemenu-run -b --fn 'Terminus 8' --hf '#f2e5bc' --tb '#282828' --tf '#
 # DP-3 is right display
 output DP-3 bg $HOME/.config/sway/pape.png fill
 output DP-2 bg $HOME/.config/sway/pape2.png fit
-output DP-2 transform 270 pos 0 -1025
+output DP-2 transform 270 pos 0 -800
 output DP-3 pos 1440 0
 # Example configuration:
 #
