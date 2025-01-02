@@ -25,7 +25,8 @@ set $menu "bemenu-run -b --fn 'Terminus 8' --hf '#f2e5bc' --tb '#282828' --tf '#
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 output * bg $HOME/.config/sway/pape.png fill
-#
+output DP-2 transform 270 pos 0 -1025
+output DP-3 pos 1440 0
 # Example configuration:
 #
 #   output HDMI-A-1 resolution 1920x1080 position 1920,0
