@@ -1,15 +1,8 @@
 [Default Applications]
-x-scheme-handler/mailto=userapp-Thunderbird-DJSOZ2.desktop
-message/rfc822=userapp-Thunderbird-DJSOZ2.desktop
-x-scheme-handler/mid=userapp-Thunderbird-DJSOZ2.desktop
-image/heic=imv-desktop.desktop
+image/heic=imv.desktop
 text/html=librewolf.desktop
-x-scheme-handler/http=librewolf.desktop
-x-scheme-handler/https=librewolf.desktop
-x-scheme-handler/about=librewolf.desktop
-x-scheme-handler/unknown=librewolf.desktop
 application/pdf=org.pwmt.zathura.desktop
-
-[Added Associations]
-x-scheme-handler/mailto=userapp-Thunderbird-LZT0W2.desktop;userapp-Thunderbird-7XKRX2.desktop;userapp-Thunderbird-AC3XY2.desktop;userapp-Thunderbird-DJSOZ2.desktop;
-x-scheme-handler/mid=userapp-Thunderbird-LZT0W2.desktop;userapp-Thunderbird-7XKRX2.desktop;userapp-Thunderbird-AC3XY2.desktop;userapp-Thunderbird-DJSOZ2.desktop;
+image/jpeg=imv.desktop
+image/jpg=imv.desktop
+image/png=imv.desktop
+image/gif=mpv.desktop
