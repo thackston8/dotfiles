@@ -1,8 +1,8 @@
 [Default Applications]
-image/heic=imv.desktop
+image/heic=imv-dir.desktop
 text/html=librewolf.desktop
 application/pdf=org.pwmt.zathura.desktop
-image/jpeg=imv.desktop
-image/jpg=imv.desktop
-image/png=imv.desktop
+image/jpeg=imv-dir.desktop
+image/jpg=imv-dir.desktop
+image/png=imv-dir.desktop
 image/gif=mpv.desktop
