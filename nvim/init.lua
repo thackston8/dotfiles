@@ -14,7 +14,7 @@ vim.opt.incsearch = true
 -- Indent automatically and with spaces
 vim.opt.autoindent = true
 vim.opt.expandtab = true
-vim.opt.tabstop = 2
+vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
 
 
@@ -49,7 +49,6 @@ require("lazy").setup({
 })
 
 -- Theme
-options = { theme = 'gruvbox' }
 vim.o.background = "dark" -- or "light" for light mode
 vim.cmd([[colorscheme gruvbox]])
 
