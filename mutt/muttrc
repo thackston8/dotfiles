@@ -11,7 +11,6 @@ mailboxes = +INBOX
 auto_view text/html
 set implicit_autoview
 
-
 set header_cache = ~/.cache/mutt
 set message_cachedir = "~/.cache/mutt"
 set postponed = +Drafts
@@ -20,7 +19,6 @@ set imap_keepalive = 300
 set mail_check = 120
 
 set record = +Sent
-
 set realname = 'Christian Thackston'
 set from = christian@thackston.dev
 set use_from = yes
