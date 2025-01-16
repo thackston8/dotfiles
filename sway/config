@@ -238,3 +238,4 @@ bindsym $mod+Insert exec grim -g "$(slurp -d)" - | wl-copy
 exec gammastep -l 39.5:-119.8
 
 bindsym $mod+Escape exec swaylock -c 000000 --font Terminus
+bindsym $mod+q exec qutebrowser
