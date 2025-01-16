@@ -11,6 +11,20 @@ settings:
       normal:
         ',m': spawn --detach mpv {url}
         pw: spawn --userscript qute-keepassxc --key CB7D84FD
+  colors.statusbar.command.bg:
+    global: '#282828'
+  colors.statusbar.command.fg:
+    global: '#ebdbb2'
+  colors.statusbar.normal.bg:
+    global: '#282828'
+  colors.statusbar.normal.fg:
+    global: '#ebdbb2'
+  colors.statusbar.url.success.http.fg:
+    global: '#ebdbb2'
+  colors.statusbar.url.success.https.fg:
+    global: '#689d6a'
+  colors.tabs.bar.bg:
+    global: '#282828'
   colors.webpage.darkmode.enabled:
     global: false
   colors.webpage.preferred_color_scheme:
@@ -38,5 +52,17 @@ settings:
   spellcheck.languages:
     global:
     - en-US
+  tabs.favicons.scale:
+    global: 1.0
+  tabs.padding:
+    global:
+      bottom: 0
+      left: 0
+      right: 0
+      top: 0
   tabs.position:
-    global: bottom
+    global: left
+  tabs.title.format:
+    global: null
+  tabs.width:
+    global: 25
