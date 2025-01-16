@@ -1,0 +1,32 @@
+source "gpg -dq $HOME/.migadu_pass.gpg |" # gpg encrypted password
+source $HOME/.config/mutt/theme # Theme from https://github.com/catppuccin/neomutt/
+source $HOME/.config/mutt/bindings # keybindings
+set mailcap_path = $HOME/.config/mutt/mailcap
+set folder = imaps://imap.migadu.com/
+set imap_user=christian@thackston.dev
+set imap_pass=$my_pass
+set spoolfile=+INBOX
+set imap_check_subscribed
+mailboxes = +INBOX
+auto_view text/html
+set implicit_autoview
+
+
+set header_cache = ~/.cache/mutt
+set message_cachedir = "~/.cache/mutt"
+set postponed = +Drafts
+unset imap_passive
+set imap_keepalive = 300
+set mail_check = 120
+
+set record = +Sent
+
+set realname = 'Christian Thackston'
+set from = christian@thackston.dev
+set use_from = yes
+set smtp_pass = $imap_pass
+set smtp_url = smtps://$imap_user@smtp.migadu.com
+set ssl_force_tls = yes
+
+# Program Settings
+set sidebar_visible = yes

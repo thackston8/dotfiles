@@ -9,7 +9,7 @@ settings:
   bindings.commands:
     global:
       normal:
-        ',m': spawn mpv {url}
+        ',m': spawn --detach mpv {url}
         pw: spawn --userscript qute-keepassxc --key CB7D84FD
   colors.webpage.darkmode.enabled:
     global: false
@@ -38,3 +38,5 @@ settings:
   spellcheck.languages:
     global:
     - en-US
+  tabs.position:
+    global: bottom
