@@ -61,6 +61,8 @@ settings:
     global: Terminus
   fonts.web.size.minimum:
     global: 14
+  scrolling.smooth:
+    global: false
   spellcheck.languages:
     global:
     - en-US
