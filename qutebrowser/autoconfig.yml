@@ -27,6 +27,8 @@ settings:
     global: '#282828'
   colors.statusbar.normal.fg:
     global: '#ebdbb2'
+  colors.statusbar.private.bg:
+    global: black
   colors.statusbar.url.fg:
     global: '#ebdbb2'
   colors.statusbar.url.hover.fg:
