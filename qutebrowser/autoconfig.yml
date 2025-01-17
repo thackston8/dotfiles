@@ -11,18 +11,30 @@ settings:
       normal:
         ',m': spawn --detach mpv {url}
         pw: spawn --userscript qute-keepassxc --key CB7D84FD
+  colors.statusbar.caret.bg:
+    global: '#b16286'
+  colors.statusbar.caret.fg:
+    global: '#ebdbb2'
   colors.statusbar.command.bg:
     global: '#282828'
   colors.statusbar.command.fg:
+    global: '#ebdbb2'
+  colors.statusbar.insert.bg:
+    global: '#458588'
+  colors.statusbar.insert.fg:
     global: '#ebdbb2'
   colors.statusbar.normal.bg:
     global: '#282828'
   colors.statusbar.normal.fg:
     global: '#ebdbb2'
-  colors.statusbar.url.success.http.fg:
+  colors.statusbar.url.fg:
     global: '#ebdbb2'
+  colors.statusbar.url.hover.fg:
+    global: '#8ec07c'
+  colors.statusbar.url.success.http.fg:
+    global: '#fb2934'
   colors.statusbar.url.success.https.fg:
-    global: '#689d6a'
+    global: '#fbf1c7'
   colors.tabs.bar.bg:
     global: '#282828'
   colors.webpage.darkmode.enabled:
