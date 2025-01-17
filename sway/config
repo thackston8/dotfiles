@@ -231,12 +231,13 @@ default_floating_border pixel 4
 bindsym $mod+Left exec playerctl previous
 bindsym $mod+Down exec playerctl play-pause
 bindsym $mod+Right exec playerctl next
-
 bindsym $mod+Insert exec grim -g "$(slurp -d)" - | wl-copy 
-
-# Start gammastep (change lat,long if you're somewhere else)
-exec gammastep -l 39.5:-119.8
-
 bindsym $mod+Escape exec swaylock -c 000000 --font Terminus
 bindsym $mod+q exec qutebrowser
+
+for_window [instance="pinentry-gtk"] floating enable
+# Start gammastep (change lat,long if you're somewhere else)
+exec gammastep -l 39.5:-119.8
+# Delay before staring keepass to give time for filesystems to settle
 exec sleep 10 && keepassxc 
+
