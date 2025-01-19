@@ -233,7 +233,7 @@ bindsym $mod+Down exec playerctl play-pause
 bindsym $mod+Right exec playerctl next
 bindsym $mod+Insert exec grim -g "$(slurp -d)" - | wl-copy 
 bindsym $mod+Escape exec swaylock -c 000000 --font Terminus
-bindsym $mod+q exec qutebrowser
+bindsym $mod+q exec firefox
 
 for_window [instance="pinentry-gtk"] floating enable
 # Start gammastep (change lat,long if you're somewhere else)
