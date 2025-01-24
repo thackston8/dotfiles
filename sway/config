@@ -238,6 +238,3 @@ bindsym $mod+q exec firefox
 for_window [instance="pinentry-gtk"] floating enable
 # Start gammastep (change lat,long if you're somewhere else)
 exec gammastep -l 39.5:-119.8
-# Delay before staring keepass to give time for filesystems to settle
-exec sleep 10 && keepassxc 
-
