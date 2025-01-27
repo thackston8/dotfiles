@@ -6,16 +6,3 @@ image/jpeg=imv-dir.desktop
 image/jpg=imv-dir.desktop
 image/png=imv-dir.desktop
 image/gif=mpv.desktop
-x-scheme-handler/mailto=userapp-Thunderbird-FA5202.desktop
-message/rfc822=userapp-Thunderbird-FA5202.desktop
-x-scheme-handler/mid=userapp-Thunderbird-FA5202.desktop
-x-scheme-handler/webcal=userapp-Thunderbird-CVYC12.desktop
-text/calendar=userapp-Thunderbird-CVYC12.desktop
-application/x-extension-ics=userapp-Thunderbird-CVYC12.desktop
-x-scheme-handler/webcals=userapp-Thunderbird-CVYC12.desktop
-
-[Added Associations]
-x-scheme-handler/mailto=userapp-Thunderbird-MMDO02.desktop;userapp-Thunderbird-FA5202.desktop;
-x-scheme-handler/mid=userapp-Thunderbird-MMDO02.desktop;userapp-Thunderbird-FA5202.desktop;
-x-scheme-handler/webcal=userapp-Thunderbird-2TUP02.desktop;userapp-Thunderbird-CVYC12.desktop;
-x-scheme-handler/webcals=userapp-Thunderbird-2TUP02.desktop;userapp-Thunderbird-CVYC12.desktop;
